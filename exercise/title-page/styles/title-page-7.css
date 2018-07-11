@@ -7,7 +7,7 @@ body {
     font-size: 22px;
 
     font-family: "Big Caslon", Helvetica, Arial, sans-serif;
-
+}
     #table-of-contents {
       position: fixed;
       top: 20em;
@@ -22,6 +22,4 @@ body {
 
   #table-of-contents a:hover {
   color: black;
-}
-
 }
