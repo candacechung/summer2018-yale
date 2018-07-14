@@ -1,0 +1,115 @@
+/* FRAME */
+
+body {
+	background: black;
+
+}
+
+.canvas {
+	width: 800px;
+	height: 566px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+  transform:rotate(355deg)
+
+}
+
+/* DRAWING ONE */
+
+.object {
+	position: absolute;
+}
+
+/*
+paper-roll
+-----------*/
+
+#paper-roll {
+  width: 700px;
+	height: 40px;
+	background: rgb(255, 117, 26);
+  left:200px;
+  top:20%;
+  transform: rotate(25deg);
+
+}
+
+/*
+bottle
+-----------*/
+
+#bottle {
+  width: 100px;
+  height: 100px;
+  background: rgb(0,128,0,0.8);
+	border-radius: 100px;
+  left:550px;
+  top:120px;
+}
+
+/*
+soccer-ball
+-----------*/
+
+#soccer-ball {
+  width: 350px;
+  height: 350px;
+  background: #f1f1da;
+	border-radius: 700px;
+  left:200px;
+  top:50px;
+
+}
+
+/*
+glass
+------------*/
+
+#glass{
+  width: 90px;
+  height: 90px;
+  background: #e6f2ff;
+	border-radius: 100px;
+  left:530px;
+  top:320px;
+}
+
+/*
+tomato
+------------*/
+
+#tomato{
+  width: 90px;
+  height: 80px;
+  background: red;
+  border-radius: 100px / 60px;
+  left:360px;
+  top:370px;
+}
+
+/*
+lemon
+------------*/
+
+#lemon{
+  width: 85px;
+  height: 80px;
+  background: yellow;
+  border-radius: 100px / 80px;
+  left:450px;
+  top:370px;
+}
+
+/*
+ball
+--------------*/
+
+#ball{
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 60px;
+  left:800px;
+  top:450px;
+}
