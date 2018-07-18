@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Candace’s class website</title>
-
+    <link rel="stylesheet" href="exercise/javascript/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
@@ -34,6 +34,14 @@
         <a href="http://summer2018-yale.matt-wolff.com/people" class="home">Home</a>
         <a href="https://schultzhenry.github.io/summer2018-yale-interactive/" class="next">Next</a>
       </div>
-
+      <button>Change Style</button>
+      <div class="object" id="lemon"></div>
+        <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type ="text/javascript">
+      $('button').click(function() {
+          $('#lemon').toggle();
+      });
+      </script>
   </body>
 </html>

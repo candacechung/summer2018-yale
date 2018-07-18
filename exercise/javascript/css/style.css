@@ -1,0 +1,27 @@
+
+.object {
+	position: absolute;
+}
+
+#tomato{
+  width: 90px;
+  height: 80px;
+  background: red;
+  border-radius: 100px / 60px;
+  left:360px;
+  top:370px;
+}
+
+/*
+lemon
+------------*/
+
+#lemon{
+  display:none;
+  width: 85px;
+  height: 80px;
+  background: yellow;
+  border-radius: 100px / 80px;
+  left:450px;
+  top:370px;
+}
