@@ -31,9 +31,10 @@ else {
 function initBookmarklet($) {
         (window.bookmarklet = function() {
                 // Replace this section with your own Information Overlay script
-                $("img").css("-webkit-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75)"
-                "-moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75)"
-                "box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);");""
+                $("img").css({
+                  "-webkit-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75)",
+                  "-moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75)",
+                  "box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);"})
         })();
 }
 })();
