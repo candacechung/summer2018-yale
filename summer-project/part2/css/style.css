@@ -1,7 +1,8 @@
 .container {
   max-width: 900px;
+  margin:auto;
 }
 
-#text{
+body{
   font-family: 'Dosis', sans-serif;
 }
