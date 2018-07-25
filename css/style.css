@@ -1,0 +1,68 @@
+.object {
+	position: absolute;
+}
+
+#lemon{
+  width: 85px;
+  height: 80px;
+  background: yellow;
+  border-radius: 100px / 80px;
+  left:450px;
+  top:370px;
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+#rainbow{
+  width: 90px;
+  height: 40px;
+  background: rgba(255,168,203,1);
+background: -moz-linear-gradient(left, rgba(255,168,203,1) 0%, rgba(255,189,222,1) 12%, rgba(255,204,238,1) 29%, rgba(204,221,255,1) 57%, rgba(205,238,238,1) 74%, rgba(205,238,222,1) 90%, rgba(204,255,204,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,168,203,1)), color-stop(12%, rgba(255,189,222,1)), color-stop(29%, rgba(255,204,238,1)), color-stop(57%, rgba(204,221,255,1)), color-stop(74%, rgba(205,238,238,1)), color-stop(90%, rgba(205,238,222,1)), color-stop(100%, rgba(204,255,204,1)));
+background: -webkit-linear-gradient(left, rgba(255,168,203,1) 0%, rgba(255,189,222,1) 12%, rgba(255,204,238,1) 29%, rgba(204,221,255,1) 57%, rgba(205,238,238,1) 74%, rgba(205,238,222,1) 90%, rgba(204,255,204,1) 100%);
+background: -o-linear-gradient(left, rgba(255,168,203,1) 0%, rgba(255,189,222,1) 12%, rgba(255,204,238,1) 29%, rgba(204,221,255,1) 57%, rgba(205,238,238,1) 74%, rgba(205,238,222,1) 90%, rgba(204,255,204,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,168,203,1) 0%, rgba(255,189,222,1) 12%, rgba(255,204,238,1) 29%, rgba(204,221,255,1) 57%, rgba(205,238,238,1) 74%, rgba(205,238,222,1) 90%, rgba(204,255,204,1) 100%);
+background: linear-gradient(to right, rgba(255,168,203,1) 0%, rgba(255,189,222,1) 12%, rgba(255,204,238,1) 29%, rgba(204,221,255,1) 57%, rgba(205,238,238,1) 74%, rgba(205,238,222,1) 90%, rgba(204,255,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa8cb', endColorstr='#ccffcc', GradientType=1 );
+left:600px;
+top:370px;
+}
