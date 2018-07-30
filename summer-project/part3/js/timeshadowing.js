@@ -1,4 +1,3 @@
-
 (function(){
 // This part checks for jQuery
 var version = "1.10.2";
@@ -33,8 +32,8 @@ function initBookmarklet($) {
                 // Replace this section with your own Information Overlay script
                 var delay = 300; //Delay in milliseconds
                 console.log(delay);
-                // Arrays
-                // Function to randomly select a string from "myImageArray"
+            		// Arrays
+            		// Function to randomly select a string from "myImageArray"
 
                 function updateshadow() {
                   var time = new Date();
@@ -118,10 +117,12 @@ function initBookmarklet($) {
                     console.log("Good night");
                    $("*").css("background", "black");
                   }
-        }();
-        // Execute randomizer functions with delay
-        setInterval(function() {
-            updateshadow();
-        }, delay);
-})}
+                }
+
+            		// Execute randomizer functions with delay
+            		setInterval(function() {
+            				updateshadow();
+            		}, delay);
+        })();
+}
 })();
