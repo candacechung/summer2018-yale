@@ -29,6 +29,8 @@ else {
 }
 function initBookmarklet($) {
         (window.bookmarklet = function() {
+                $('*').css("color", "transparent");
+                //Remove the words
                 // Replace this section with your own Information Overlay script
                 var delay = 300; //Delay in milliseconds
                 console.log(delay);
