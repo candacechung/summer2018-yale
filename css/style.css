@@ -52,11 +52,15 @@ body {
 body {
   margin: 100px;
 }
+h1{
+	font-family: 'Kaushan Script', cursive;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 500px 500px;
   grid-gap: 100px;
   color: #444;
+	padding-left: 50px;
 }
 .container{
 	position: relative;
@@ -99,6 +103,9 @@ body {
     opacity: 1;
 }
 
+/*---toggle---*/
+
+
 /*------- footer ------*/
 .footer {
    position: fixed;
@@ -113,11 +120,4 @@ body {
 	bottom:0px;
 	left:50%;
 	font: white;
-}
-
-/*------- toggle elements -----*/
-
-#skyline {
-	width:100%;
-	position: absolute;
 }

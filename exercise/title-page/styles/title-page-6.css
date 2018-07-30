@@ -1,4 +1,73 @@
-
-body {
-  background: lime;
+/* The navigation bar */
+body{
+  background-color: #F5F5F5;
+  font-family: sans-serif;
 }
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 57px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+input[type=text] {
+  padding: 6px;
+  width: 600px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+.search-container button {
+  padding: 6px ;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/*------- sidebar --------*/
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 60px; /* Stay at the top */
+    left: 0;
+    background-color: #DCDCDC;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+    padding-left: 50px;
+  }
