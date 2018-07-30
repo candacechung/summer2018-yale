@@ -12,6 +12,10 @@
       -moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
       box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
     }
+    a{
+      color: black;
+      font-weight: bold;
+    }
     </style>
   </head>
   <body>
@@ -77,41 +81,44 @@
         console.log("Hour: " + hours);
         // Get current time;
         // Check what hour it is
-
+        if (hours <= 6){
+          console.log("Good night");
+         $("*").css("background", "black");
+        }
         if (hours == 7){
           console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "150px 100px 70px 50px rgba(0,0,0,0.75)");
+          $("*").css("box-shadow", "150px 100px " + seconds + "px 50px rgba(0,0,0,0.75)");
           //$("*").css("box-shadow",  hours + "px 100px 70px 50px rgba(0,0,0,0.75)");
         }
 
         if (hours == 8){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "120px 80px 65px 40px rgba(0,0,0,0.75)");
+          console.log("Morning. It's eight o'clock");
+          $("*").css("box-shadow", "120px 80px " + seconds + "px 40px rgba(0,0,0,0.75)");
         }
 
         if (hours == 9){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "100px 60px 60px 30px rgba(0,0,0,0.75)");
+          console.log("Morning. It's nine o'clock");
+          $("*").css("box-shadow", "100px 60px " + seconds + "px 30px rgba(0,0,0,0.75)");
         }
 
         if (hours == 10){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "80px 40px 40px 20px rgba(0,0,0,0.75)");
+          console.log("Morning. It's ten o'clock");
+          $("*").css("box-shadow", "80px 40px " + seconds + "px 20px rgba(0,0,0,0.75)");
         }
 
         if (hours == 11){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "60px 20px 20px 10px rgba(0,0,0,0.75)");
+          console.log("Morning. It's eleven o'clock");
+          $("*").css("box-shadow", "60px 20px " + seconds + "px 10px rgba(0,0,0,0.75)");
         }
 
         if (hours == 12){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "0px 1px 10px 10px rgba(0,0,0,0.75)");
+          console.log("Morning. It's twleve o'clock");
+          $("*").css("box-shadow", "0px 1px " + seconds + "px 10px rgba(0,0,0,0.75)");
         }
 
         if (hours == 13) {
           console.log("Hello!");
-          $("*").css("box-shadow", "-20px 11px 20px 10px rgba(0,0,0,0.75)");
+          $("*").css("box-shadow", "-20px 11px " + seconds + "px 10px rgba(0,0,0,0.75)");
         }
 
         if (hours == 14) {
@@ -123,25 +130,29 @@
          }
 
         if (hours == 15){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "-60px 46px 40px 20px rgba(0,0,0,0.75)");
+          console.log("It's three o'clock");
+          $("*").css("box-shadow", "-60px 46px " + seconds + "px 20px rgba(0,0,0,0.75)");
         }
 
         if (hours == 16){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "-100px 55px 55px 30px rgba(0,0,0,0.75)");
+          console.log("It's four o'clock");
+          $("*").css("box-shadow", "-100px 55px " + seconds + "px 30px rgba(0,0,0,0.75)");
         }
 
         if (hours == 17){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "-120px 60px 60px 35px rgba(0,0,0,0.75)");
+          console.log("It's five o'clock");
+          $("*").css("box-shadow", "-120px 60px " + seconds + "px 35px rgba(0,0,0,0.75)");
         }
 
         if (hours == 18){
-          console.log("Morning. It's seven o'clock");
-          $("*").css("box-shadow", "-140px 65px 60px 40px rgba(0,0,0,0.75)");
+          console.log("It's six o'clock");
+          $("*").css("box-shadow", "-140px 65px " + seconds + "px 40px rgba(0,0,0,0.75)");
         }
         // If it's a certain hour, match the shadow to it.
+        if (hours >= 19){
+          console.log("Good night");
+         $("*").css("background", "black");
+        }
       }
 
   		// Execute randomizer functions with delay
