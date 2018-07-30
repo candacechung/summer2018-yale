@@ -11,8 +11,9 @@ h4{
 a{
   color:black;
 }
+
 .rectangle {
-    width: 200px;
+    width: 100%;
     height: 200px;
     background: white;
     position: relative;
@@ -23,10 +24,10 @@ a{
 }
 @-webkit-keyframes mymove {
     from {top: 0px;}
-    to {top: 200px; background-color: pink;}
+    to {top: 200px; background-color: yellow;}
 }
 
 @keyframes mymove {
     from {top: 0px;}
-    to {top: 200px; background-color: pink;}
+    to {top: 200px; background-color: yellow;}
 }
