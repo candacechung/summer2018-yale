@@ -11,7 +11,6 @@
       -webkit-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
       box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
-
     }
     </style>
   </head>
@@ -23,31 +22,133 @@
       </div>
     <center><h2>Information Overlay - Part 2</h2>
       <h1>Light and shadow</h1>
-    <img src="collection/1.png" width="300"/>
+    <img src="collection/1.png" width="500"/>
     <br><br>
-    <img src="collection/2.png" width="300"/>
+    <img src="collection/2.png" width="500"/>
     <br><br>
-    <img src="collection/3.png" width="300"/>
+    <img src="collection/3.png" width="500"/>
     <br><br>
-    <img src="collection/4.png" width="300"/>
+    <img src="collection/4.png" width="500"/>
     <br><br>
-    <img src="collection/5.png" width="300"/>
+    <img src="collection/5.png" width="500"/>
     <br><br>
-    <img src="collection/6.png" width="300"/>
+    <img src="collection/6.png" width="500"/>
     <br><br>
-    <img src="collection/7.png" width="300"/>
+    <img src="collection/7.png" width="500"/>
     <br><br>
-    <img src="collection/8.png" width="300"/>
+    <img src="collection/8.png" width="500"/>
     <br><br>
-    <img src="collection/9.png" width="300"/>
+    <img src="collection/9.png" width="500"/>
     <br><br>
-    <img src="collection/10.png" width="300"/>
+    <img src="collection/10.png" width="500"/>
     <br><br>
-    <img src="collection/11.png" width="300"/>
+    <img src="collection/11.png" width="500"/>
     <br><br>
-    <img src="collection/12.png" width="300"/>
+    <img src="collection/12.png" width="500"/>
+    <br><br>
+    <img src="collection/13.png" width="500"/>
+    <br><br>
+    <img src="collection/14.png" width="500"/>
+    <br><br>
+    <img src="collection/15.png" width="500"/>
+    <br><br>
+    <img src="collection/16.png" width="500"/>
+    <br><br>
+    <img src="collection/17.png" width="500"/>
+    <br><br>
+    <img src="collection/18.png" width="500"/>
   </center>
-
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script>
+  	$(document).ready(function() {
+  		var delay = 300; //Delay in milliseconds
+      console.log(delay);
+  		// Arrays
+  		// Function to randomly select a string from "myImageArray"
+
+      function updateshadow() {
+        var time = new Date();
+        var hours = time.getHours();
+        var minutes = time.getMinutes();
+        var seconds = time.getSeconds();
+        console.log(time.getSeconds());
+        console.log(time);
+        console.log("Hour: " + hours);
+        // Get current time;
+        // Check what hour it is
+
+        if (hours == 7){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "150px 100px 70px 50px rgba(0,0,0,0.75)");
+          //$("*").css("box-shadow",  hours + "px 100px 70px 50px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 8){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "120px 80px 65px 40px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 9){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "100px 60px 60px 30px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 10){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "80px 40px 40px 20px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 11){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "60px 20px 20px 10px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 12){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "0px 1px 10px 10px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 13) {
+          console.log("Hello!");
+          $("*").css("box-shadow", "-20px 11px 20px 10px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 14) {
+          console.log("It's two o'clock");
+          //$("*").css("box-shadow",  hours + "px " + seconds + "px 70px 50px rgba(0,0,0,0.75)");
+          //$("*").css("box-shadow",  seconds + "px " + minutes + "px 70px 50px rgba(0,0,0,0.75)");
+          $("*").css("box-shadow", "-40px 31px " + seconds + "px 15px rgba(0,0,0,0.75)");
+          //$("*").css("box-shadow", "-40px 31px 30px 15px rgba(0,0,0,0.75)");
+         }
+
+        if (hours == 15){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "-60px 46px 40px 20px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 16){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "-100px 55px 55px 30px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 17){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "-120px 60px 60px 35px rgba(0,0,0,0.75)");
+        }
+
+        if (hours == 18){
+          console.log("Morning. It's seven o'clock");
+          $("*").css("box-shadow", "-140px 65px 60px 40px rgba(0,0,0,0.75)");
+        }
+        // If it's a certain hour, match the shadow to it.
+      }
+
+  		// Execute randomizer functions with delay
+  		setInterval(function() {
+  				updateshadow();
+  		}, delay);
+  	});
+  	</script>
   </body>
 </html>
