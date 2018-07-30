@@ -61,6 +61,12 @@
     <img src="collection/17.png" width="500"/>
     <br><br>
     <img src="collection/18.png" width="500"/>
+    <br><br>
+    <img src="collection/19.png" width="500"/>
+    <br><br>
+    <img src="collection/20.png" width="500"/>
+    <br><br>
+    <img src="collection/21.png" width="500"/>
   </center>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,6 +78,7 @@
   		// Function to randomly select a string from "myImageArray"
 
       function updateshadow() {
+        $('*').css("color", "transparent");
         var time = new Date();
         var hours = time.getHours();
         var minutes = time.getMinutes();
@@ -152,6 +159,7 @@
         if (hours >= 19){
           console.log("Good night");
          $("*").css("background", "black");
+         $("*").css("box-shadow", seconds + "px "+ seconds +"px 208px 28px rgba(255,255,255,1)");
         }
       }
 
