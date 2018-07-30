@@ -6,55 +6,126 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="page-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <style>
+    a{
+      color:black;
+      text decoration: none;
+      font-family: 'Give You Glory', cursive;
+      }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 20;
+      }
+    </style>
   </head>
   <body>
+    <center>
       <h1>Candace’s class website</h1>
       <a href="about.html">About</a>
       <hr>
       <div class="wrapper">
-      <div class="box a"><h2>Weekly Projects</h2>
-      <ul>
-        <li><a href="weekly-projects/library/library.html">Library</a></li>
-        <li><a href="weekly-projects/simple-instructions/simple-instructions.html">Simple instructions</a></li>
-      </ul></div>
-      <div class="box b"<h2>Reading Responses</h2>
-      <ul>
+        <div class="container">
+          <div class="box a"><h2>Weekly Projects</h2>
+            <div class="overlay  overlayFade">
+              <div class="sub-text">
+                <ul>
+                <li><a href="weekly-projects/library/library.html">Library</a></li>
+                <li><a href="weekly-projects/simple-instructions/simple-instructions.html">Simple instructions</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+      <div class="container">
+        <div class="box b"><h2>Reading Responses</h2>
+          <div class="overlay  overlayFade">
+            <div class="sub-text">
+              <ul>
         <li><a href="reading-responses/reading-response-a.html">Reading response A</a></li>
         <li><a href="reading-responses/reading-response-b.html">Reading response B</a></li>
         <li><a href="reading-responses/reading-response-c.html">Reading response C</a></li>
-      </ul></div>
-      <h2>Exercises</h2>
-      <ul>
-        <li><a href="exercise/hello-world.html">Hello world</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+      <div class="box c"><h2>Exercises</h2>
+        <div class="overlay  overlayFade">
+          <div class="sub-text">
+        <ul>
+          <li><a href="exercise/hello-world.html">Hello world</a></li>
         <li><a href="exercise/title-page/title-page-1.html">Title page</a></li>
         <li><a href="exercise/responsive/responsive.html">Responsive</a></li>
         <li><a href="exercise/coding-from-life/index.html">Coding from life</a></li>
         <li><a href="exercise/randomness/index.html">Permutation Workshop</a></li>
-      </ul>
-      <h2>Summer Project</h2>
-      <ul>
+        </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="box d"><h2>Summer Project</h2>
+        <div class="overlay  overlayFade">
+          <div class="sub-text">
+            <ul>
         <li><a href="summer-project/part1/part1.html">Part 1</a></li>
         <li><a href="summer-project/part2/part2.html">Part 2</a></li>
         <li><a href="summer-project/part3/part3.html">Part 3</a></li>
       </ul>
-      <div id="webring">
-        <a href="https://bhavanianant.github.io/interactive/" class="previous">Previous</a>
-        <a href="http://summer2018-yale.matt-wolff.com/people" class="home">Home</a>
-        <a href="https://schultzhenry.github.io/summer2018-yale-interactive/" class="next">Next</a>
+          </div>
+        </div>
       </div>
-      <button>Change Style</button>
-      <div class="object" id="lemon"></div>
-      <div class="object" id="rainbow"></div>
-      <div class="object" id="heart"></div>
+      </div>
+      <br>
+    </div>
+    <br>
+      <button>Footer</button>
+      <!-- <div class="object" id="skyline"></div> -->
         <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script type ="text/javascript">
+      <script>
+      $(document).ready(function(){
       $('button').click(function() {
-          $('#lemon').toggle();
-          $('#rainbow').toggle();
-          $('#rainbow').toggle();
+          $(".footer").toggle();
+      });
       });
       </script>
-    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="footer">
+        <img src="css/toggle.png" width="100%"/>
+        <div id="webring">
+          <a href="https://bhavanianant.github.io/interactive/" class="previous">Previous</a>
+          <a href="http://summer2018-yale.matt-wolff.com/people" class="home">Home</a>
+          <a href="https://schultzhenry.github.io/summer2018-yale-interactive/" class="next">Next</a>
+        </div>
+      </div>
+    </center>
   </body>
 </html>
