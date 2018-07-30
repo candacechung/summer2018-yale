@@ -116,6 +116,7 @@ function initBookmarklet($) {
                   if (hours >= 19){
                     console.log("Good night");
                    $("*").css("background", "black");
+                   $("*").css("box-shadow", seconds + "px "+ seconds +"px 208px 28px rgba(255,255,255,1)");
                   }
                 }
 

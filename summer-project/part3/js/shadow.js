@@ -35,7 +35,6 @@ function initBookmarklet($) {
                 console.log(delay);
                 // Arrays
                 // Function to randomly select a string from "myImageArray"
-
                 function updateshadow() {
                   var time = new Date();
                   var hours = time.getHours();
