@@ -8,8 +8,6 @@
     <link rel="icon" type="image/png" href="page-icon.png">
     <style>
     * {
-      -webkit-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
       box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
     }
     a{
@@ -26,47 +24,69 @@
       </div>
     <center><h2>Information Overlay - Part 2</h2>
       <h1>Light and shadow</h1>
-    <img src="collection/1.png" width="500"/>
+      <h1>The Collection</h1>
+    <img src="collection/1.png" width="900"/>
+    <p>Screen Shot 2018-07-2 at 8.55.41 PM</p>
     <br><br>
-    <img src="collection/2.png" width="500"/>
+    <img src="collection/2.png" width="900"/>
+    <p>Screen Shot 2018-07-11 at 12.00.31 AM</p>
     <br><br>
-    <img src="collection/3.png" width="500"/>
+    <img src="collection/3.png" width="900"/>
+    <p>Screen Shot 2018-07-11 at 12.00.34 AM</p>
     <br><br>
-    <img src="collection/4.png" width="500"/>
+    <img src="collection/4.png" width="900"/>
+    <p>Screen Shot 2018-07-24 at 11.11.20 AM</p>
     <br><br>
-    <img src="collection/5.png" width="500"/>
+    <img src="collection/5.png" width="900"/>
+    <p>Screen Shot 2018-07-24 at 11.12.33 AM</p>
     <br><br>
-    <img src="collection/6.png" width="500"/>
+    <img src="collection/6.png" width="900"/>
+    <p>Screen Shot 2018-07-24 at 10.00.05 AM</p>
     <br><br>
-    <img src="collection/7.png" width="500"/>
+    <img src="collection/7.png" width="900"/>
+    <p>Screen Shot 2018-07-24 at 12.00.34 AM</p>
     <br><br>
-    <img src="collection/8.png" width="500"/>
+    <img src="collection/8.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 2.02.06 AM</p>
     <br><br>
-    <img src="collection/9.png" width="500"/>
+    <img src="collection/9.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 2.02.09 AM</p>
     <br><br>
-    <img src="collection/10.png" width="500"/>
+    <img src="collection/10.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 12.25.16 AM</p>
     <br><br>
-    <img src="collection/11.png" width="500"/>
+    <img src="collection/11.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 11.54.57 AM</p>
     <br><br>
-    <img src="collection/12.png" width="500"/>
+    <img src="collection/12.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 11.55.00 AM</p>
     <br><br>
-    <img src="collection/13.png" width="500"/>
+    <img src="collection/13.png" width="900"/>
+    <p>Screen Shot 2018-07-25 at 11.13.32 PM</p>
     <br><br>
-    <img src="collection/14.png" width="500"/>
+    <img src="collection/14.png" width="900"/>
+    <p>Screen Shot 2018-07-26 at 12.19.49 AM</p>
     <br><br>
-    <img src="collection/15.png" width="500"/>
+    <img src="collection/18.png" width="900"/>
+    <p>Screen Shot 2018-07-27 at 1.44.22 PM</p>
     <br><br>
-    <img src="collection/16.png" width="500"/>
+    <img src="collection/15.png" width="900"/>
+    <p>Screen Shot 2018-07-28 at 12.30.12 PM</p>
     <br><br>
-    <img src="collection/17.png" width="500"/>
+    <img src="collection/16.png" width="900"/>
+    <p>Screen Shot 2018-07-29 at 10.14.24 PM</p>
     <br><br>
-    <img src="collection/18.png" width="500"/>
+    <img src="collection/17.png" width="900"/>
+    <p>Screen Shot 2018-07-30 at 2.56.37 AM</p>
     <br><br>
-    <img src="collection/19.png" width="500"/>
+    <img src="collection/19.png" width="900"/>
+    <p>Screen Shot 2018-07-30 at 4.11.58 PM | Information Overlay</p>
     <br><br>
-    <img src="collection/20.png" width="500"/>
+    <img src="collection/20.png" width="900"/>
+    <p>Screen Shot 2018-07-30 at 4.12.04 PM | Google Fonts</p>
     <br><br>
-    <img src="collection/21.png" width="500"/>
+    <img src="collection/21.png" width="900"/>
+    <p>Screen Shot 2018-07-30 at 4.12.35 PM | Can I Use </p>
   </center>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -78,7 +98,6 @@
   		// Function to randomly select a string from "myImageArray"
 
       function updateshadow() {
-        $('*').css("color", "transparent");
         var time = new Date();
         var hours = time.getHours();
         var minutes = time.getMinutes();
@@ -91,6 +110,7 @@
         if (hours <= 6){
           console.log("Good night");
          $("*").css("background", "black");
+         $("*").css("box-shadow", seconds + "px "+ seconds +"px 208px 28px rgba(255,255,255,1)");
         }
         if (hours == 7){
           console.log("Morning. It's seven o'clock");
