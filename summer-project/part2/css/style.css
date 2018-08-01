@@ -18,12 +18,12 @@ h2{
 }
 
 h3{
-  font-size: 35px;
+  font-size: 45px;
 }
 .panel{
   position: fixed;
   width: 130px;
-  height: 150px;
+  height: 180px;
   background-color: white;
   bottom: 30px;
   right: 20px;
