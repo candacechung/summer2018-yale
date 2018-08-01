@@ -50,6 +50,7 @@ function initBookmarklet($) {
                   if (hours <= 6){
                     console.log("Good night");
                    $("*").css("background", "black");
+                   $("*").css("box-shadow", seconds + "px "+ seconds +"px 208px 28px rgba(255,255,255,1)");
                   }
                   if (hours == 7){
                     console.log("Morning. It's seven o'clock");
