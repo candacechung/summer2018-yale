@@ -1,0 +1,131 @@
+
+/*----------------background------------*/
+.header{
+  height: 50px;
+}
+a{
+  color: black;
+}
+a::after{
+  color: pink;
+}
+p{
+  display: block;
+  height: 15px;
+  font-family: 'Dosis', sans-serif;
+}
+h4{
+  font-family: 'Dosis', sans-serif;:
+}
+.shadow-7 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 150px 100px 70px 50px  rgba(0,0,0,0.75);
+}
+
+.shadow-8 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 120px 80px 70px 48px rgba(0,0,0,0.75)
+}
+
+.shadow-9 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 100px 60px 70px 46px rgba(0,0,0,0.75)
+}
+
+.shadow-10 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 80px 40px 70px 44px rgba(0,0,0,0.75)
+}
+
+.shadow-11 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 60px 20px 70px 42px rgba(0,0,0,0.75)
+}
+
+.shadow-12 {
+  width: 300px;
+  padding:10px;
+  box-shadow: 0px 1px 70px 40px rgba(0,0,0,0.75)
+}
+
+.shadow-13 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -20px 11px 70px 10px rgba(0,0,0,0.75)
+}
+
+.shadow-14 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -40px 31px 70px 12px rgba(0,0,0,0.75)
+}
+
+.shadow-15 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -60px 46px 70px 14px rgba(0,0,0,0.75)
+}
+
+.shadow-16 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -100px 55px 70px 16px rgba(0,0,0,0.75)
+}
+
+.shadow-17 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -120px 60px 70px 18px rgba(0,0,0,0.75)
+}
+
+.shadow-18 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -140px 65px 60px 20px rgba(0,0,0,0.75)
+}
+.shadow-19 {
+  width: 300px;
+  padding:10px;
+  box-shadow: -160px 65px 60px 22px rgba(0,0,0,0.75)
+}
+
+/*-----button---------*/
+.grabbing{
+  cursor: grabbing;
+}
+.button1{
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: ;
+  border: none;
+  box-shadow: 0px 1px 10px 10px rgba(0,0,0,0.75)
+}
+.bookmarklet{
+  color: white;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding:10px;
+  padding-top: 25px;
+}
+.button1:hover{
+  background-color: yellow;
+  box-shadow: 0px 3px 100px 43px rgba(255,255,255,1);
+  border: 2px;
+  font: black;
+}
+.button1 .a:hover{
+  font: black;
+}
+.bookmarklet:hover{
+  font: black;
+}
