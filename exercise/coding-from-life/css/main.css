@@ -43,8 +43,8 @@ bottle
 	width: 100px;
   height: 100px;
 	left: 20%;
-  left:520px;
-  top:120px;
+  left:500px;
+  top:40px;
 }
 
 #bottle #cap{
@@ -89,6 +89,8 @@ soccer-ball
 -----------*/
 
 #soccer-ball {
+	position: absolute;
+  display:block;
   width: 350px;
   height: 350px;
   background: #f1f1da;
@@ -102,6 +104,8 @@ soccer-ball
 }
 
 #soccre-ball #line {
+	position: absolute;
+   display:block;
 	width: 350px;
 	height: 10px;
 	background: black;
@@ -111,14 +115,24 @@ soccer-ball
 /*
 glass
 ------------*/
+#twig{
+	width: 10px;
+  height: 220px;
+  background: brown;
+	border-radius: 30px;
+  left:570px;
+  top:160px;
+	transform: rotate(-25deg);
+}
 
 #glass{
-  width: 90px;
-  height: 90px;
-  background: #e6f2ff;
-	border-radius: 100px;
-  left:530px;
-  top:320px;
+  width: 110px;
+  height: 180px;
+  background: rgb(230,242,255,0.7);
+	border-radius: 30px;
+  left:520px;
+  top:210px;
+	transform: rotate(5deg);
 }
 
 /*
@@ -130,8 +144,9 @@ tomato
   height: 80px;
   background: red;
   border-radius: 100px / 60px;
-  left:360px;
-  top:370px;
+  left:350px;
+  top:350px;
+	transform: rotate(5deg);
 }
 
 /*
@@ -143,8 +158,9 @@ lemon
   height: 80px;
   background: yellow;
   border-radius: 100px / 80px;
-  left:450px;
-  top:370px;
+  left:440px;
+  top:350px;
+	transform: rotate(5deg);
 }
 
 /*
@@ -156,6 +172,6 @@ ball
   height: 60px;
   background: red;
   border-radius: 60px;
-  left:720px;
-  top:450px;
+  left:700px;
+  top:452px;
 }
