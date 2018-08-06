@@ -26,11 +26,11 @@ paper-roll
 -----------*/
 
 #paper-roll {
-  width: 700px;
+  width: 730px;
 	height: 40px;
 	background: rgb(255, 117, 26);
   left:200px;
-  top:20%;
+  top:26%;
   transform: rotate(25deg);
 
 }
@@ -40,12 +40,48 @@ bottle
 -----------*/
 
 #bottle {
-  width: 100px;
+	width: 100px;
   height: 100px;
-  background: rgb(0,128,0,0.8);
-	border-radius: 100px;
-  left:550px;
+	left: 20%;
+  left:520px;
   top:120px;
+}
+
+#bottle #cap{
+	position: absolute;
+   display:block;
+	width: 40px;
+	height: 20px;
+	background: rgb(225,220,220);
+	transform: rotate(5deg);
+	left: 65px;
+	top: 0px;
+}
+
+#bottle #top{
+	position: absolute;
+   display:block;
+	width: 30px;
+	height: 80px;
+	background: rgb(0,128,0);
+	transform: rotate(5deg);
+	left: 67px;
+	top: 20px;
+}
+
+#bottle #bottom{
+	position: absolute;
+  display:block;
+	width: 100px;
+  height: 200px;
+  background: rgb(0,128,0);
+	border-top-left-radius: 65%;
+  border-top-right-radius: 65%;
+	border-bottom-right-radius: 12.5%;
+	border-bottom-left-radius: 12.5%;
+	transform: rotate(5deg);
+	top: 95px;
+	left: 20px;
 }
 
 /*
@@ -61,10 +97,17 @@ soccer-ball
   top:50px;
 	/*-webkit-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
-	box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75); 
+	box-shadow: 0px 10px 30px 6px rgba(0,0,0,0.75);
 	This part is for the shadow-*/
 }
 
+#soccre-ball #line {
+	width: 350px;
+	height: 10px;
+	background: black;
+	left:200px;
+  top:50px;
+}
 /*
 glass
 ------------*/
@@ -113,6 +156,6 @@ ball
   height: 60px;
   background: red;
   border-radius: 60px;
-  left:800px;
+  left:720px;
   top:450px;
 }
